@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|Ubuntu+Mono');
+
+body{
+  background: #e8e7e7;
+}
+
+.designer--mainEl--container{
+  width: 26% !important;
+  background: #ffffff;
+  border-top: 1px solid #e8e7e7;
+}
+
+.designer--mainEl--container:hover{
+  background: #f2f1f1;
+  border: none;
+}
+.designer--mainEl{
+  line-height: 40px;
+}
+
+.designer--mainEl__icon{
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 30px;
+  text-align: center;
+}
+
+.designer--mainEl__label{
+  margin-left: 5px;
+}
+
+
+.designer--toolbar{
+  width:  100%;
+  background: #e8e7e7;
+  border-top: 1px solid #eeeeee ;
+  border-bottom: 1px solid #cac6c6 ;
+  margin:0;
+  padding-left: 10px;
+  list-style: none;
+}
+.designer--toolbar--name, .designer--toolbar--item, .designer--toolbar--item__container{
+  display: inline-block;
+}
+
+.designer--toolbar--name{
+  margin-right: 10px;
+  font-size: 12PX;
+  color: #999aa3;
+}
+
+.designer--toolbar--item__container{
+  border-left: 1px solid #d3d0ce;
+  padding: 10px 15px;
+}
+
+.designer--toolbar--item{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+.designer--toolbar--item.designer--toolbar__fontsize{
+  background: #fff;
+}
+
+.designer--toolbar--item.designer--toolbar__fontStyle{
+  margin-left: -10px;
+  margin-right: -15px;
+}
+
+
+.designer--toolbar--item .designer--toolbar__f{
+  border: 2px solid #d3d0ce;
+  border-left:0;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.designer--toolbar--item .designer--toolbar__f--first{
+  border-left: 2px solid #d3d0ce;
+}
+
+.designer--toolbar--item.designer--toolbar__fontsize input{
+  border:0;
+  outline: 0;
+  width: 25px;
+}
+
+.designer--toolbar--item.designer--toolbar__fontsize span{
+  font-size: 12px;
+  color: #999593;
+}
+
+.designer--toolbar__f.designer--toolbar--fselected{
+  color: #27c8a3;
+  background: #fff;
+}
+
+.designer--toolbar--item .designer--toolbar--item__label{
+  background: #e8e7e7;
+  margin-left: -5px;
+  margin-right: 5px;
+  padding-top: 1px;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 9px;
+}
+
+.designer--canvasEl{
+  border: 1px solid #cecbcb;
+}
+
+.designer--canvasEl__selected{
+  border-color: #27c8a3;
+}
+
+
+.designer--accordion{
+  background: #ffffff;
+  width: 86.66%;
+  margin: 2% 7%;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.designer--accordion__title{
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.designer--accordion__icon{
+  position: absolute;
+  right: 10px;
+}
+
+.designer--toolbar--item.designer--toolbar__trash:hover{
+  color: #ab0f00;
+}
+
+.designer--page__toolbar--item__container{
+  display: inline-block;
+  font-size: 12px;
+  color: #9c9aa3;
+  border-left: 1px solid #d3d0ce;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.designer--page--size{
+  background: #fff;
+  border: 1px solid #d3d0ce;
+  padding: 3px;
+  font-size: 12px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.designer--page--size.designer--page--size__selected{
+ border-color: #27c8a3;
+}
+
+.designer--page--size__spec{
+  background: #ffffff;
+  width: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+  border: 1px solid #d3d0ce;
+  padding: 3px;
+}
+
+.designer--page--size__spec input{
+  border:0;
+  width: 25px;
+  outline: 0;
+}
+
+span.designer--page--orientation {
+  background: #fff;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: -3px;
+  cursor: pointer;
+}
+
+span.designer--page--orientation.designer--page__v {
+  width: 10px;
+  height: 15px;
+}
+
+span.designer--page--orientation.designer--page__h{
+  width: 15px;
+  height: 10px;
+}
+
+span.designer--page--orientation.selected{
+  border-color: #27c8a3;
+}
+
+.paper.paper--is--printing  .designer--canvasEl{
+  border: 0 !important;
+}
+
+.designer--canvasEl__table * {
+  background: transparent !important;
+}
+
+.paper.paper--is--printing .designer--canvasEl__table * {
+  border: none !important;
+}
+
+.designer--mainEl__checkbox {
+  border-right: 1px solid #e8e7e7;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.designer--canvasEl__remove{
+  position: absolute;
+  right: 0;
+  font-size: 10px;
+  padding: 2px;
+  background: #d4cdcd;
+  cursor:pointer;
+}
+
+
+.tableColumn{
+  padding: 2px 5px;
+  border-bottom: 1px solid transparent;
+}
+
+.designer--canvasEl__table:hover table {
+  border: 1px solid red !important;
+}
+.designer--canvasEl__table:hover table td{
+  border-color: #27c8a3;
+  border-bottom-color: darkgray;
+}
+
+.designer--mainEl:hover .drag-icons{
+  display: inline;
+}
+.drag-icons{
+  display: none;
+  position: absolute;
+  right: 5px;
+  font-size: 12px;
+}
+
+.drag-icons i{
+  cursor: pointer;
+}
+
+.drag-icon--hidden{
+  display: none !important;
+}
+
+.designer--canvasEl__table:hover .divider {
+  background: #27c8a3 !important;
+}
+
+.Resizer {
+  background: #000;
+  opacity: .2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Resizer.horizontal {
+  height: 11px;
+  margin: -5px 0;
+  border-top: 5px solid rgba(255, 255, 255, 0);
+  border-bottom: 5px solid rgba(255, 255, 255, 0);
+  cursor: row-resize;
+  width: 100%;
+}
+
+.Resizer.horizontal:hover {
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.Resizer.vertical:hover {
+  border-left: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: 5px solid rgba(0, 0, 0, 0.5);
+}
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+.split.split-horizontal, .gutter.gutter-horizontal {
+  height: 100%;
+  float: left;
+}
+
+
+.gutter.gutter-horizontal {
+  cursor: ew-resize;
+}
+
+.gutter.gutter-vertical {
+  cursor: ns-resize;
+}
+
+.split.split-horizontal, .gutter.gutter-horizontal {
+  height: 100%;
+  float: left;
+}
+.designer--canvasEl__table__inner {
+  padding-bottom: 10px;
+}
+
+.designer--canvasEl__table:hover {
+  border-color: #27c8a3;
+}
+
+.designer--canvasEl__table .divider {
+  background: transparent !important;
+}
