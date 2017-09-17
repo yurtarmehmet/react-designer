@@ -9,7 +9,7 @@ Prop     | Gorevi
 config | App ile alakali tum konfigurasyonu icerir
 save    | Kaydet butonuna basildiginda yapilacak aksiyonu iceren fonksion
 
-### Config Dosyasi
+### Config Dosyasi (src/config.js)
 **parentElements**: Sidebardaki akordiyondaki parentlari iceren array. Demodaki Musteri Bilgileri, Fatura Bilgileri, Hizmet Urun Bilgileri vs bunlardan biri, altta aldigi degerler ve aciklamasi var.
 
 Key     | Value
