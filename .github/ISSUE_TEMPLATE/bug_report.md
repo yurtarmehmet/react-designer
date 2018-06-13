@@ -20,12 +20,12 @@ Lorem Ipsum
 
 ### Context/Environment
 
-**Account ID:**xxxx
+**Account ID:** xxxx
 
-**API Key:**yyyy
+**API Key:** yyyy
 
-**User:**zzz
+**User:** zzz
 
-**URL:**bbb
+**URL:** bbb
 
 ### Screenshots
