@@ -1,7 +1,5 @@
 ## Types of changes
 
-What types of changes does pr has?
-
 - [ ] Bug (Fixes an issue)
 - [X] Feature (Adds a newfunctionality)
 - [ ] Improvement (Improves an existing functionality)
