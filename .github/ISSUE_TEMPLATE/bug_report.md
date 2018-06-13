@@ -6,7 +6,7 @@ about: Create a report to help us improve
 
 ## Beklenen Davranış
 
-Trendify'da istek tamamlandıktan sonra loading animasyonunun gözükmemesi
+Trendify'da istek tamamlandıktan sonra loading animasyonunun gözükmemesi gerekir.
 
 ## Şu anki Davranış
 
