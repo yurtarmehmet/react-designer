@@ -1,6 +1,6 @@
 ---
 name: Request
-about: Account için bir özellik(kontrol grup vs.) aktifleştirme/config değiştirme, product catalog ile ilgili silme/update işlemleri
+about: Account için bir özellik(kontrol grup vs.) aktifleştirme/config değiştirme, product catalog ile ilgili silme/update işlemleri, XML ekleme/update işlemleri
 ---
 
 
