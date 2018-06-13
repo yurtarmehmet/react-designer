@@ -1,6 +1,6 @@
 ---
 name: Bug bildirimi
-about: Panel ya da müşteri sitesi üzerinde görünen bugların raporlanması için oluşturulan template.
+about: Panel ya da müşteri sitesi üzerinde görünen bugların raporlanması.
 
 ---
 
