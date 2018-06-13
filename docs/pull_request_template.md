@@ -11,7 +11,7 @@ Segmentify Technical Responsible kullanıcılar için account warning maillerini
 
 **İlgili Issue:** #1379
 
-## Detay
+## Details
 Gelistirmeyi sadece Segmentify Technical Userları sadece herhangi bir accounta switch olmamış durumda iken görebilir.
 
 ## Screenshots
