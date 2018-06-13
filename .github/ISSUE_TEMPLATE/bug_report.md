@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug bildirimi
+about: Panel ya da müşteri sitesi üzerinde görünen bugların raporlanması için oluşturulan template.
 
 ---
 
