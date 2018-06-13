@@ -4,21 +4,21 @@ about: Create a report to help us improve
 
 ---
 
-### Beklenen Davranış
+## Beklenen Davranış
 
 Lorem Ipsum
 
-### Şu anki Davranış
+## Şu anki Davranış
 
 Lorem Ipsum
 
-### Hatayı Tekrarlama Adımları
+## Hatayı Tekrarlama Adımları
 
 1.  Go to settings > Profile
 2.  Tap on More Options
 3.  Delete Account
 
-### Context/Environment
+## Context/Environment
 
 **Account ID:** xxxx
 
@@ -28,8 +28,8 @@ Lorem Ipsum
 
 **URL:** bbb
 
-### Screenshots
+## Screenshots
 
-### Ekstra Detay
+## Ekstra Detay
 
-### Cozum Onerisi
+## Cozum Onerisi
