@@ -18,4 +18,4 @@ Gelistirmeyi sadece Segmentify Technical Userları sadece herhangi bir accounta 
 
 ## Checklist
 - [X] Code compiled successfully
-- [X] Code doesn't contain "console.log"S
+- [X] Code doesn't contain "console.log"
