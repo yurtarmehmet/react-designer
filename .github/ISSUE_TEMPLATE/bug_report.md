@@ -19,10 +19,14 @@ Trendify isteği basarılı olmasına rağmen loading ekrandan kaybolmuyor.
 
 ## Context/Environment
 
-**Account:** evmanya 
-<space><space> **Account ID:** acc_6185ae008536e000
+**Account:** evmanya
+
+**Account ID:** acc_6185ae008536e000
+
 **API Key:** 3c0675e9-9d89-47b3-b7a0-cdde875e525b
+
 **User:** mehmet.yurtar@segmentify.com
+
 **URL:** panelv2.com/trendify
 
 ## Screenshots
