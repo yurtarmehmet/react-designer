@@ -29,3 +29,7 @@ Lorem Ipsum
 **URL:** bbb
 
 ### Screenshots
+
+### Ekstra Detay
+
+### Cozum Onerisi
